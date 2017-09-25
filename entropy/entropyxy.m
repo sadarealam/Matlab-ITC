@@ -42,5 +42,13 @@ if sum(sum(xy)) == 1
     disp('Mutual Information I(x,y)');
     disp(ixy);
     
+    if(ixy==epx && epx==epy && epy==hxy)
+        disp('This is a noise free Channel');        
+    end
+    
+    if(hxby==epx && hybx==epy)
+        disp('This Channel has independent Input and Output');
+    end
+         
         
 end

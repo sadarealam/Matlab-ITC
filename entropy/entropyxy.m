@@ -38,4 +38,9 @@ if sum(sum(xy)) == 1
     disp('Entropy H(x/y)');
     disp(hxby);
     
+    ixy = epx - hxby ;
+    disp('Mutual Information I(x,y)');
+    disp(ixy);
+    
+        
 end

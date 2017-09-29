@@ -1,7 +1,5 @@
-function [p,x]=bubbleSortI(p,x)
-siz = size(p);
-nr = siz(1);
-nc = siz(2);
+function [p,x]=bubbleSort(p,x)
+[~,nc] = size(p);
 for i=1:nc-1
     for j=i+1:nc
         if(p(i)>p(j))

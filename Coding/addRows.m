@@ -1,4 +1,7 @@
 function trow=addRows(r1,r2)
+% This function add two rows containing some zero element in the end
+% This function create new vecter and insert only non zero element from 
+%  both the input vecter(r1,r2).
         [~,nc] = size(r1);
         trow = zeros(1,nc);
         pointer = 1;

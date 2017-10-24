@@ -9,6 +9,9 @@ else
     x = varargin{1};
 end
 
+% include helper functions in helper directory
+addpath(genpath('helpers'))
+
 %Following lines will initialize a output vectore.
 %This is required for compatblity reason.
 o={' ' , ' '};

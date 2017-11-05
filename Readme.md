@@ -10,4 +10,4 @@ ITC-AC/IS 542
 6.	Write program to implement Run Length Encoding algorithm.
 7.	Write program to implement Arithmetic coding algorithm.
 8.	Write program to implement LZW coding algorithm.
-9.	Write program to implement jpeg compression
+9.	Write program to implement Block Code algorithm.
